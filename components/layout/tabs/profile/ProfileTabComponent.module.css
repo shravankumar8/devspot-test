@@ -1,0 +1,17 @@
+/* Default styles: Desktop view */
+.dropdownContainer {
+  display: none;
+}
+.tabsList {
+  display: flex;
+}
+
+/* Mobile view */
+@media (max-width: 640px) {
+  .dropdownContainer {
+    display: block;
+  }
+  .tabsList {
+    display: none;
+  }
+}

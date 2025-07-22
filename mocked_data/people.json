@@ -1,0 +1,109 @@
+[
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Alice Johnson",
+        "role": "Software Engineer",
+        "location": "New York",
+        "score": 95,
+        "skills": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    },
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Bob Smith",
+        "role": "Product Manager",
+        "location": "San Francisco",
+        "score": 88,
+        "skills": [
+            "Agile",
+            "Scrum",
+            "Communication"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    },
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Alice Johnson",
+        "role": "Software Engineer",
+        "location": "New York",
+        "score": 95,
+        "skills": [
+            "JavaScriptssssssssssssssssssa",
+            "React",
+            "Node.js"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    },
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Alice Johnson",
+        "role": "Software Engineer",
+        "location": "New York",
+        "score": 95,
+        "skills": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    },
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Alice Johnson",
+        "role": "Software Engineer",
+        "location": "New York",
+        "score": 950,
+        "skills": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    },
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Alice Johnson",
+        "role": "Software Engineer",
+        "location": "New York",
+        "score": 95,
+        "skills": [
+            "JavaScript",
+            "React",
+            "Node.js"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    },
+    {
+        "profile_picture": "/profile_image.png",
+        "name": "Alice Johnson",
+        "role": "Software Engineer",
+        "location": "New York",
+        "score": 95,
+        "skills": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Express.js",
+            "Python"
+        ],
+        "about": "Russell is a web & mobile developer who is truly full-stack. His main skill is the Mobile app development with React Native.Front-end JavaScript, API integration, web application programming, databases, server security, and automated testing all fall into his wheelhouse. On the back-end, he prefers to work in Node.js and RoR.",
+        "experience": "5 years of experience",
+        "website": "Website Title"
+    }
+]

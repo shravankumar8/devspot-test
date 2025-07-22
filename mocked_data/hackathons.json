@@ -1,0 +1,802 @@
+[
+  {
+    "name": "AI Revolution Hackathon",
+    "id": "1",
+    "date": "2024-08-15T09:00:00Z",
+    "organizer": {
+      "name": "Tech Innovators Inc.",
+      "logo": "/microsoft-placeholder.jpg"
+    },
+    "image": "/card_image.png",
+    "isUpcomingOrLive": true,
+    "type": "Virtual",
+    "description": "Join us for an exciting virtual hackathon focused on AI innovations. Collaborate with developers worldwide and build groundbreaking AI solutions.",
+    "numberOfParticipants": 150,
+    "location": "Online",
+    "deadline": "2024-06-15T09:00:00Z",
+    "about": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+    "applicationMethod": "join",
+    "judges": [
+      {
+        "name": "Sally Kit",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Preston Hop",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Jayden smith",
+        "role": "project manager",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Smith Gold",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      { "name": "John snow", "role": "developer", "pics": "/profile_image.png" }
+    ],
+    "dateStarted": "2024-06-26T09:00:00Z",
+    "HQ": "San Francisco, United States",
+    "resources": [
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing",
+        "description": "Module guiding you through the steps of creating and deploying an agent."
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing",
+        "description": "Module guiding you through the steps of creating and deploying an agent."
+      }
+    ],
+    "challenges": [
+      {
+        "index": 1,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sustainable Future Hackathon",
+    "date": "2024-09-10T10:00:00Z",
+    "id": "2",
+    "organizer": {
+      "name": "Eco Innovators",
+      "logo": "/microsoft-placeholder.jpg"
+    },
+    "image": "/card_image.png",
+    "isUpcomingOrLive": true,
+    "type": "In Person",
+    "description": "An in-person hackathon to develop sustainable technology solutions for a better future. Network with industry experts and make a real impact.",
+    "numberOfParticipants": 200,
+    "location": "San Fancisco",
+    "deadline": "2024-06-15T09:00:00Z",
+    "about": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+    "applicationMethod": "stake",
+    "judges": [
+      {
+        "name": "Sally Kit",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Preston Hop",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Jayden smith",
+        "role": "project manager",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Smith Gold",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      { "name": "John snow", "role": "developer", "pics": "/profile_image.png" }
+    ],
+    "dateStarted": "2024-06-26T09:00:00Z",
+    "HQ": "San Francisco, United States",
+    "resources": [
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      }
+    ],
+    "challenges": [
+      {
+        "index": 1,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blockchain Innovators Hackathon",
+    "date": "2024-07-30T08:30:00Z",
+    "id": "3",
+    "organizer": {
+      "name": "Microsoft",
+      "logo": "/microsoft-placeholder.jpg"
+    },
+    "image": "/card_image.png",
+    "isUpcomingOrLive": false,
+    "type": "Virtual",
+    "description": "A virtual hackathon dedicated to blockchain technology. Create innovative blockchain applications and compete for top prizes.",
+    "numberOfParticipants": 120,
+    "location": "Online",
+    "deadline": "2024-06-15T09:00:00Z",
+    "about": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+    "applicationMethod": "apply",
+    "judges": [
+      {
+        "name": "Sally Kit",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Preston Hop",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Jayden smith",
+        "role": "project manager",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Smith Gold",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      { "name": "John snow", "role": "developer", "pics": "/profile_image.png" }
+    ],
+    "dateStarted": "2024-06-26T09:00:00Z",
+    "HQ": "San Francisco, United States",
+    "resources": [
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      }
+    ],
+    "challenges": [
+      {
+        "index": 1,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HealthTech Hackathon",
+    "date": "2024-08-25T11:00:00Z",
+    "id": "4",
+    "organizer": {
+      "name": "Apple",
+      "logo": "/microsoft-placeholder.jpg"
+    },
+    "image": "/card_image.png",
+    "isUpcomingOrLive": true,
+    "type": "In Person",
+    "description": "Join us in person for a hackathon focused on health technology. Collaborate with healthcare professionals and developers to create innovative health solutions.",
+    "numberOfParticipants": 180,
+    "location": "New York City",
+    "deadline": "2024-06-15T09:00:00Z",
+    "about": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+    "applicationMethod": "apply-additional",
+    "additional-questions": [
+      "Tell us about your experience working in web2.",
+      "Briefly describe any project ideas or areas of interest for the hackathon.",
+      "Tell us why you want to attend this hackathon."
+    ],
+    "judges": [
+      {
+        "name": "Sally Kit",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Preston Hop",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Jayden smith",
+        "role": "project manager",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Smith Gold",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      { "name": "John snow", "role": "developer", "pics": "/profile_image.png" }
+    ],
+    "dateStarted": "2024-06-26T09:00:00Z",
+    "HQ": "San Francisco, United States",
+    "resources": [
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      }
+    ],
+    "challenges": [
+      {
+        "index": 1,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FinTech Solutions Hackathon",
+    "date": "2024-07-20T09:30:00Z",
+    "id": "5",
+    "organizer": {
+      "name": "JP Morgan Chase",
+      "logo": "/microsoft-placeholder.jpg"
+    },
+    "image": "/card_image.png",
+    "isUpcomingOrLive": false,
+    "type": "Virtual",
+    "description": "A virtual hackathon for developing innovative FinTech solutions. Engage with financial experts and push the boundaries of financial technology.",
+
+    "numberOfParticipants": 160,
+    "location": "Online",
+    "deadline": "2024-06-15T09:00:00Z",
+    "about": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+    "applicationMethod": "apply-stake",
+
+    "judges": [
+      {
+        "name": "Sally Kit",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Preston Hop",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Jayden smith",
+        "role": "project manager",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Smith Gold",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      { "name": "John snow", "role": "developer", "pics": "/profile_image.png" }
+    ],
+    "dateStarted": "2024-06-26T09:00:00Z",
+    "HQ": "San Francisco, United States",
+    "resources": [
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      }
+    ],
+    "challenges": [
+      {
+        "index": 1,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FinTech Solutions Hackathon",
+    "date": "2024-07-20T09:30:00Z",
+    "id": "6",
+    "organizer": {
+      "name": "JP Morgan Chase",
+      "logo": "/microsoft-placeholder.jpg"
+    },
+    "image": "/card_image.png",
+    "isUpcomingOrLive": false,
+    "type": "Virtual",
+    "description": "A virtual hackathon for developing innovative FinTech solutions. Engage with financial experts and push the boundaries of financial technology.",
+
+    "numberOfParticipants": 160,
+    "location": "Online",
+    "deadline": "2024-06-15T09:00:00Z",
+    "about": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+    "applicationMethod": "apply-additional-stake",
+    "judges": [
+      {
+        "name": "Sally Kit",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Preston Hop",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Jayden smith",
+        "role": "project manager",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "Smith Gold",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      },
+      {
+        "name": "John snow",
+        "role": "developer",
+        "pics": "/profile_image.png"
+      }
+    ],
+    "dateStarted": "2024-06-26T09:00:00Z",
+    "HQ": "San Francisco, United States",
+    "resources": [
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      },
+      {
+        "title": "Get started with Azure AI",
+        "link": "https://docs.google.com/document/d/139rPJnNxL7noLWG8yojLjCWQqGpphW0cJwRqXm8BY6c/edit?usp=sharing"
+      }
+    ],
+    "challenges": [
+      {
+        "index": 1,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 2,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      },
+      {
+        "index": 3,
+        "title": "Grab - developing a machine learning model",
+        "description": "This virtual hackathon aims to bring together AI/ML enthusiasts, talented developers, designers, and entrepreneurs to solve real-world business challenges from APAC using Azure AI. With multiple partner challenges, our goal is for participants to use Azure technology to create something innovative and transformative. The hackathon will be broken up into two phases. Phase 1 will consist of solution design and architecture. Phase 2 will consist of taking your idea and creating a prototype.",
+        "technologies": [
+          "React",
+          "Python",
+          "JavaScript",
+          "PHP",
+          "Mobile development"
+        ],
+        "sponsors": [
+          { "name": "Amazon", "logo": "/amazon.png" },
+          { "name": "Microsoft", "logo": "/microsoft.png" },
+          { "name": "Accenture", "logo": "/accenture.png" },
+          { "name": "Shire", "logo": "/shire.png" },
+          { "name": "Flir", "logo": "/flir.png" }
+        ],
+        "prizes": [
+          { "position": 1, "amount": "4,000", "tokens": "2,000" },
+          { "position": 2, "amount": "3,000", "tokens": "2,000" },
+          { "position": 3, "amount": "2,000", "tokens": "2,000" }
+        ]
+      }
+    ]
+  }
+]

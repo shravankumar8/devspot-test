@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "userName": "Russell French",
+    "userPosition": "Senior Developer",
+    "main_role":"Designer",
+    "isOpenToWork": true,
+    "tokens": 100,
+    "profileprogress": 0,
+    "profileImage": "/profile_image.png",
+    "profileBackgroundImage": "/profile_background_image.png",
+    "about": "Experienced in building scalable web applications.",
+    "location": "San Francisco, CA",
+    "experience": "10 years in software development.",
+    "website": "https://russellfrench.dev",
+    "skills": {
+      "experience": ["React", "Node.js", "TypeScript"],
+      "technologies": ["JavaScript", "CSS", "HTML"]
+    },
+    "certifications": [
+      {
+        "url": "https://github.com/",
+        "title": "TensorFlow Developer",
+        "thumbnail": "/tensor.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "Microsoft (MTA)",
+        "thumbnail": "/microsoft_img.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "Microsoft Azure",
+        "thumbnail": "/microsoft_img.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "AWS Certified Developer – Associate Level",
+        "thumbnail": "/amazons.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "Cloudera (CCDH)",
+        "thumbnail": "/cloudera.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "Oracle (APEX)",
+        "thumbnail": "/opera.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "Salesforce",
+        "thumbnail": "/salesforce.png"
+      },
+      {
+        "url": "https://github.com/",
+        "title": "Oracle (APEX)",
+        "thumbnail": "/opera.png"
+      }
+    ],
+    "linkedInUrl": "https://linkedIn.com/"
+  },
+  {
+    "id": 2,
+    "userName": "Emily Johnson",
+    "userPosition": "Project Manager",
+    "isOpenToWork": false,
+    "tokens": 85,
+    "profileprogress": 60,
+
+    "profileImage": "/profile_image.png",
+    "profileBackgroundImage": "/profile_background_image.png",
+    "about": "Specialist in project coordination and team management.",
+    "location": "New York, NY",
+    "experience": "8 years managing tech projects.",
+    "website": "https://emilyjohnson.co",
+    "skills": {
+      "experience": ["Agile", "Scrum", "Kanban"],
+      "technologies": ["JIRA", "Confluence", "Trello"]
+    },
+    "certifications": [
+      {
+        "url": "https://github.com/",
+        "title": "TensorFlow Developer",
+        "thumbnail": "/tensor.png"
+      }
+    ],
+    "linkedInUrl": "https://linkedIn.com/"
+  },
+  {
+    "id": 3,
+    "userName": "Michael Smith",
+    "userPosition": "Data Scientist",
+    "isOpenToWork": true,
+    "tokens": 120,
+    "profileprogress": 60,
+
+    "profileImage": "/profile_image.png",
+    "profileBackgroundImage": "/profile_background_image.png",
+    "about": "Passionate about extracting insights from data.",
+    "location": "Chicago, IL",
+    "experience": "5 years in data science.",
+    "website": "https://michaelsmith.ai",
+    "skills": {
+      "experience": ["Python", "R", "SQL"],
+      "technologies": ["Pandas", "TensorFlow", "Power BI"]
+    },
+    "certifications": [
+      {
+        "url": "https://github.com/",
+        "title": "TensorFlow Developer",
+        "thumbnail": "/tensor.png"
+      }
+    ],
+    "linkedInUrl": "https://linkedIn.com/"
+  },
+  {
+    "id": 4,
+    "userName": "Sofia Martinez",
+    "userPosition": "UX Designer",
+    "isOpenToWork": false,
+    "tokens": 95,
+    "profileprogress": 70,
+
+    "profileImage": "/profile_image.png",
+    "profileBackgroundImage": "/profile_background_image.png",
+    "about": "Creating intuitive and beautiful user experiences.",
+    "location": "Austin, TX",
+    "experience": "7 years in UX/UI design.",
+    "website": "https://sofiamartinez.design",
+    "skills": {
+      "experience": ["Figma", "Sketch", "Adobe XD"],
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    "certifications": [
+      {
+        "url": "https://github.com/",
+        "title": "TensorFlow Developer",
+        "thumbnail": "/tensor.png"
+      }
+    ],
+    "linkedInUrl": "https://linkedIn.com/"
+  },
+  {
+    "id": 5,
+    "userName": "James Lee",
+    "userPosition": "DevOps Engineer",
+    "isOpenToWork": true,
+    "tokens": 110,
+    "profileprogress": 100,
+
+    "profileImage": "/profile_image.png",
+    "profileBackgroundImage": "/profile_background_image.png",
+    "about": "Streamlining development and operations workflows.",
+    "location": "Seattle, WA",
+    "experience": "6 years in DevOps.",
+    "website": "https://jameslee.devops",
+    "skills": {
+      "experience": ["AWS", "Docker", "Kubernetes"],
+      "technologies": ["Terraform", "Ansible", "CI/CD"]
+    },
+    "certifications": [
+      {
+        "url": "https://github.com/",
+        "title": "TensorFlow Developer",
+        "thumbnail": "/tensor.png"
+      }
+    ],
+    "linkedInUrl": "https://linkedIn.com/"
+  }
+]

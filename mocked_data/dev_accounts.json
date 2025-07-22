@@ -1,0 +1,43 @@
+{
+    "GitHub": {
+      "url": "https://github.com/fakeuser",
+      "publicRepos": 12,
+      "followers": 12,
+      "following": 12
+    },
+    "Stack Overflow": {
+      "url": "https://stackoverflow.com/users/fakeuser",
+      "badges": 23,
+      "upvotes": 32,
+      "answers": 43,
+      "questions": 23
+    },
+    "HackerRank": {
+      "url": "https://www.hackerrank.com/fakeuser",
+      "rank": "200",
+      "global_rank": 12121,
+      "challenges": 38
+    },
+    "Gitlab": {
+      "url": "https://www.gitlab.com/fakeuser",
+      "repository": 45,
+      "followers": 13
+    },
+    "DevTo": {
+      "url": "https://www.dev.to.com/fakeuser",
+      "articles": 200,
+      "followers": 333
+    },
+    "Dribble": {
+      "url": "https://dribbble.com/fakeuser",
+      "shots": 120,
+      "followers": 200,
+      "liked_shots": 500
+    },
+    "Behance": {
+      "url": "https://behance.com/fakeuser",
+      "project_views": 120,
+      "followers": 200,
+      "appreciation": 500
+    }
+  }

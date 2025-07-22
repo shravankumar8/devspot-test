@@ -1,0 +1,639 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 247 89% 72%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Schedule Management Colors */
+    --schedule-bg: 220 13% 13%;
+    --schedule-sidebar: 220 13% 16%;
+    --schedule-timeline: 220 13% 18%;
+    --schedule-event-blue: 247 89% 72%;
+    --schedule-event-purple: 258 90% 66%;
+    --schedule-event-green: 142 76% 36%;
+    --schedule-text: 0 0% 85%;
+    --schedule-text-muted: 0 0% 60%;
+    --schedule-border: 220 13% 25%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  } */
+}
+
+/* Custom styling for the calendar */
+.custom-calendar {
+  @apply bg-secondary-bg shadow-lg p-4 rounded-xl max-w-full md:max-w-[500px] h-[148px] overflow-y-scroll transition-all duration-300;
+}
+
+.custom-calendar .rdp-months {
+  @apply justify-center;
+}
+
+.custom-calendar .rdp-month {
+  @apply w-full;
+}
+
+.custom-calendar .rdp-caption {
+  @apply mb-4;
+}
+
+.custom-calendar .rdp-caption_label {
+  @apply font-medium text-white text-xl;
+}
+
+.custom-calendar .rdp-nav {
+  @apply text-gray-400;
+}
+
+.custom-calendar .rdp-head_cell {
+  @apply py-2 font-normal text-sm;
+}
+
+.custom-calendar .rdp-cell {
+  @apply p-0 text-center;
+}
+
+.custom-calendar .rdp-button {
+  @apply flex justify-center items-center rounded-full w-10 h-10 transition-all duration-200;
+}
+
+.custom-calendar .rdp-day_outside {
+  @apply opacity-50;
+}
+
+.custom-calendar .rdp-day_selected {
+  @apply font-medium !text-green-700;
+}
+
+.custom-calendar .rdp-day_range_start,
+.custom-calendar .rdp-day_range_end {
+  @apply font-medium text-white;
+}
+
+.custom-calendar .rdp-day_range_middle {
+  @apply text-white;
+}
+
+.selected-range-display {
+  @apply mb-6 pb-4 border-gray-700 border-b font-medium text-white text-xl;
+}
+
+.custom-calendar .rpd-weeks .rpd-week .rdp-today {
+  @apply !text-green-700;
+}
+
+.date-highlight {
+  @apply relative;
+}
+
+.date-highlight::before {
+  content: "";
+  @apply absolute top-0 left-1/2 -translate-x-1/2 w-2 h-2  rounded-full;
+}
+
+.aside-li {
+  @apply flex items-center gap-3 hover:bg-blue-950 hover:bg-gradient-to-b from-[#4075FF] to-[#9667FA] hover:bg-opacity-10 border-transparent border-l-4 hover:border-l-4 font-semibold text-white text-opacity-60 duration-150;
+}
+.active-nav {
+  @apply flex items-center gap-3 bg-blue-950 bg-gradient-to-b from-[#4075FF] to-[#9667FA] bg-opacity-10 border-l-4 font-semibold text-white text-opacity-60 duration-150;
+}
+
+.profile:hover {
+  color: #ffffff;
+  .person-profile path {
+    fill: #ffffff;
+  }
+}
+
+/* globals.css or a component-scoped CSS module */
+.scrollbar-custom::-webkit-scrollbar {
+  height: px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #1c1c24;
+  border-radius: 100vh;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background-color: #4e51f503;
+  border-radius: 100vh;
+}
+
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: #4e51f5bd #1c1c2438;
+}
+
+/* Disable scrollbar style on lg and up */
+@media (min-width: 1600px) {
+  .scrollbar-custom::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-custom {
+    scrollbar-width: none;
+  }
+}
+
+.overlay::before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  opacity: 30%;
+  /* z-index: -8; */
+  backdrop-filter: blur(40000px);
+  background-color: #1e1e1e;
+}
+
+.otp-input {
+  /* @apply bg-background; */
+  width: 4rem !important;
+  height: 4rem !important;
+  border: 1px solid #424248;
+  margin: 0.5rem !important;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #2b2b31;
+}
+
+.shadowbox {
+  box-shadow: 6px 6px 12px 0px #13131a40;
+}
+@media (max-width: 767px) {
+  .otp-input {
+    width: 3rem !important;
+    height: 3rem !important;
+    margin: 0.3rem !important;
+  }
+}
+
+.spinner {
+  width: 70.4px;
+  height: 70.4px;
+  --clr: #4e52f5;
+  --clr-alpha: rgb(0, 0, 0, 0);
+  /* Try changing the animation to 'spinner', 'spinner2', or 'spinner3' */
+  animation: spinner 3s infinite ease;
+  transform-style: preserve-3d;
+  perspective: none;
+}
+
+.spinner > div {
+  background-color: var(--clr-alpha);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  border: 3.5px solid var(--clr);
+}
+
+.spinner div:nth-of-type(1) {
+  transform: translateZ(-35.26px) rotateY(180deg);
+}
+
+.spinner div:nth-of-type(2) {
+  transform: rotateY(-270deg) translateX(50%);
+  transform-origin: top right;
+}
+
+.spinner div:nth-of-type(3) {
+  transform: rotateY(270deg) translateX(-50%);
+  transform-origin: center left;
+}
+
+.spinner div:nth-of-type(4) {
+  transform: rotateX(90deg) translateY(-50%);
+  transform-origin: top center;
+}
+
+.spinner div:nth-of-type(5) {
+  transform: rotateX(-90deg) translateY(50%);
+  transform-origin: bottom center;
+}
+
+.spinner div:nth-of-type(6) {
+  transform: translateZ(35.26px);
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg) rotateX(-55deg) rotateY(46.5deg);
+  }
+
+  100% {
+    transform: rotate(0deg) rotateX(-415deg) rotateY(406.5deg);
+  }
+}
+@keyframes spinner2 {
+  0% {
+    transform: rotate(0deg) rotateX(-55deg) rotateY(46.5deg);
+  }
+
+  50% {
+    transform: rotate(90deg) rotateX(-415deg) rotateY(46.5deg);
+  }
+
+  100% {
+    transform: rotate(0deg) rotateX(-415deg) rotateY(406.5deg);
+  }
+}
+@keyframes spinner3 {
+  0% {
+    transform: rotate(45deg) rotateX(0) rotateY(0);
+  }
+
+  50% {
+    transform: rotate(0deg) rotateX(-144deg) rotateY(226.5deg);
+  }
+
+  100% {
+    transform: rotate(45deg) rotateX(-360deg) rotateY(360deg);
+  }
+}
+/* Calendar animations */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+.custom-calendar {
+  max-width: 100% !important;
+  height: 100% !important;
+}
+
+.rdp-months {
+  max-width: 100% !important;
+}
+.rdp-month table {
+  width: 100% !important;
+}
+.rdp-weekday {
+  text-align: left !important;
+  color: #89898c;
+  font-family: "Roboto" !important;
+  font-size: 10px;
+  padding-left: 15px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase !important;
+}
+.calendar-focus {
+  animation: pulse-ring 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+.rdp-chevron {
+  fill: #424248 !important;
+}
+
+.calendar-event-day button {
+  background-color: transparent !important;
+  border-radius: 100% !important;
+  color: #ffffff !important;
+  text-align: center;
+  border: 1.5px solid #4e52f5 !important;
+
+  font-family: "roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.calendar-today button {
+  background-color: #4e52f5 !important;
+  border-radius: 100% !important;
+  color: #ffffff !important;
+  text-align: center;
+  border: 1.5px solid #ffffff !important;
+
+  font-family: "roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.calendar-event-today button {
+  background: linear-gradient(270deg, #9667fa 0%, #4075ff 100%) !important;
+  border-radius: 100% !important;
+  color: #ffffff !important;
+  text-align: center;
+  border: 1.5px solid #ffffff !important;
+
+  font-family: "roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.rdp-today button {
+  border: 1px solid #ffffff !important;
+}
+
+.custom-calendar .rdp-day_selected {
+  background-color: #4e52f5 !important;
+  color: #ffffff !important;
+}
+
+div:focus-visible {
+  outline: none;
+}
+
+.shadow-unset {
+  box-shadow: unset;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* 1. Hide ALL scrollbars, but keep scrolling functional */
+html,
+body,
+* {
+  /* Firefox */
+  scrollbar-width: none;
+  /* IE 10+ */
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+
+}
+
+/* WebKit (Chrome, Safari, Edge Chromium) */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* 2. Remove number-input spinner controls */
+input[type="number"] {
+  /* for Firefox: turn it into a plain text-field */
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  /* for Chrome, Safari, Edge */
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* 3. Strip off the range slider “thumb” and track */
+input[type="range"] {
+  /* remove default styling */
+  -webkit-appearance: none;
+  background: transparent; /* make track transparent if you like */
+  width: 100%;
+}
+.video-range {
+  background-color: #4779ff !important;
+}
+/* Chrome, Safari, Edge Chromium */
+input[type="range"]::-webkit-slider-runnable-track,
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+/* Firefox */
+input[type="range"]::-moz-range-track,
+input[type="range"]::-moz-range-thumb {
+  /* leave empty, or override as desired */
+  background: transparent;
+  border: none;
+}
+
+/* (Optional) If you want to restore a custom thumb/track, add your own rules here */
+
+.pl-bg {
+  position: relative;
+
+  background: linear-gradient(
+      0deg,
+      rgba(156, 156, 156, 0.78),
+      rgba(156, 156, 156, 0.78)
+    ),
+    url("/earth.png") no-repeat center center;
+  background-size: cover;
+  mix-blend-mode: hard-light;
+}
+
+/* .box-shadow {
+  box-shadow: -6px -6px 12px 0px rgba(19, 19, 26, 0.25),
+    6px 6px 12px 0px rgba(19, 19, 26, 0.25);
+} */
+
+@media (min-width: 1027px) and (max-width: 1430px) {
+  /* Your styles here */
+  .toggle-availability {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 380px) {
+  /* Your styles here */
+  .toggle-availability {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 2000px) {
+  /* Your styles here */
+  .hackathon-profile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 464px) {
+  .work-toggle {
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 350px) {
+  .small-text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 520px) {
+  .small {
+    flex-direction: column;
+    align-items: start;
+    justify-content: baseline;
+    gap: 12px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 520px) {
+  .notif-action-button {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 520px) {
+  .notif-unread {
+    display: none;
+  }
+}
+
+@media (min-width: 520px) {
+  .notif-unread-sm {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  .notif-message-sm {
+    max-width: 80%;
+  }
+}
+@media (max-width: 1282px) and (min-width: 1023px) {
+  .hackathon-tags {
+    max-width: 450px;
+  }
+}
+
+.gradient-border {
+  border: 1px solid transparent;
+  background: linear-gradient(#1b1b22, #1b1b22) padding-box,
+    linear-gradient(270deg, #9667fa 0%, #4075ff 100%) border-box;
+  border-radius: 0.5rem;
+}
+.tags-gradient-border {
+  border: 1px solid transparent;
+  background: linear-gradient(#13131A, #13131A) padding-box,
+    linear-gradient(270deg, #9667fa 0%, #4075ff 100%) border-box;
+  border-radius: 40px;
+}
+.sponsor-border {
+  border: 1px solid transparent;
+  background: linear-gradient(#13131a, #2b2b31) padding-box,
+    linear-gradient(270deg, #9667fa 0%, #4075ff 100%) border-box;
+  border-radius: 0.5rem;
+}
+
+.prize-card:hover {
+  border: 1px solid transparent;
+  background: linear-gradient(#13131a, #2b2b31) padding-box,
+    linear-gradient(270deg, #9667fa 0%, #4075ff 100%) border-box;
+  border-radius: 0.5rem;
+}
+
+.ReactCrop__child-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-role-card {
+    border: 2px solid transparent;
+  background: linear-gradient(#1b1b22, #1b1b22) padding-box,
+    linear-gradient(270deg, #9667fa 0%, #4075ff 100%) border-box;
+  border-radius: 0.5rem;
+}
+

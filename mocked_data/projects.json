@@ -1,0 +1,123 @@
+[
+  {
+    "projectName": "BookBot",
+    "challengeName": "Microsoft Excel API Challenge",
+    "teamMembers": [
+      { "firstName": "John", "lastName": "Doe", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Jane", "lastName": "Smith", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Emily", "lastName": "Johnson", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" }
+    ],
+    "ranking": "1",
+    "description": "We believe dental check-ups should be free, fast and more accessible - not a privilege. Pearlii uses AI image processing to create an amazing incredible blah blah blah blah blah blah  blah blah blah blah blah blah  blah blah blah blah blah blah  blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah blah",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "React",
+      "Node.js"
+    ],
+    "image": "/project_bg.svg"
+  },
+  {
+    "projectName": "HealthSync",
+    "challengeName": "Telehealth Innovation Hackathon",
+    "teamMembers": [
+      { "firstName": "Michael", "lastName": "Williams", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Sophia", "lastName": "Brown", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Ethan", "lastName": "Jones", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Liam", "lastName": "Garcia", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Liam", "lastName": "Garcia", "profilePicture": "/team_member_pfp.svg" }
+    ],
+    "ranking": "2",
+    "description": "Developed a robust, centralized platform allowing companies to host and promote hackathons and developers to view, join, and manage events. Implemented secure user authentication and streamlined event participation features, focusing on scalable backend architecture and an intuitive frontend. Integrated a notification system, personalized dashboards, and real-time data handling for a seamless user experience. Designed RESTful APIs for event data management and added functionalities for prize distribution and participant feedback collection. Collaborated with a small team to ensure adherence to Agile methodologies and deliver consistent improvements aligned with user feedback.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "MySQL"
+    ],
+    "image": "/project_bg.svg"
+  },
+  {
+    "projectName": "EduConnect",
+    "challengeName": "Google Classroom API Hack",
+    "teamMembers": [
+      { "firstName": "Olivia", "lastName": "Martinez", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Ava", "lastName": "Rodriguez", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" }
+    ],
+    "ranking": "3",
+    "description": "EduConnect is a collaborative platform that bridges the gap between teachers, students, and parents, providing real-time feedback, assignments tracking, and AI-based progress monitoring.",
+    "skills": [
+      "C#",
+      "ASP.NET",
+      "Azure",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "image": "/project_bg.svg"
+  },
+  {
+    "projectName": "FinTrack",
+    "challengeName": "FinTech API Challenge",
+    "teamMembers": [
+      { "firstName": "James", "lastName": "Davis", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Ella", "lastName": "Miller", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Lucas", "lastName": "Wilson", "profilePicture": "/team_member_pfp.svg" }
+    ],
+    "ranking": "",
+    "description": "FinTrack helps individuals manage personal finances and investments through AI-driven insights, offering real-time spending reports, investment tracking, and budget recommendations.",
+    "skills": [
+      "Python",
+      "Pandas",
+      "Machine Learning",
+      "Flask",
+      "PostgreSQL"
+    ],
+    "image": "/project_bg.svg"
+  },
+  {
+    "projectName": "EcoDrive",
+    "challengeName": "Sustainable Transportation Hackathon",
+    "teamMembers": [
+      { "firstName": "Charlotte", "lastName": "Anderson", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Daniel", "lastName": "Thomas", "profilePicture": "/team_member_pfp.svg" }
+    ],
+    "ranking": "2",
+    "description": "EcoDrive empowers users to reduce their carbon footprint through carpooling and eco-friendly driving suggestions, combining AI and sustainability metrics to track impact.",
+    "skills": [
+      "C++",
+      "OpenCV",
+      "TensorFlow",
+      "React Native",
+      "SQLite"
+    ],
+    "image": "/project_bg.svg"
+  },
+  {
+    "projectName": "SafeGuard",
+    "challengeName": "Cybersecurity Innovation Sprint",
+    "teamMembers": [
+      { "firstName": "Benjamin", "lastName": "Moore", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Henry", "lastName": "White", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" },
+      { "firstName": "Harper", "lastName": "Taylor", "profilePicture": "/team_member_pfp.svg" }
+    ],
+    "ranking": "1",
+    "description": "SafeGuard is a powerful tool that detects vulnerabilities in systems using advanced AI algorithms, helping organizations secure their networks and protect sensitive data.",
+    "skills": [
+      "Cybersecurity",
+      "Network Security",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "image": "/project_bg.svg"
+  }
+]

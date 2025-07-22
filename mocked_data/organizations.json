@@ -1,0 +1,30 @@
+[
+  {
+    "companyName": "Tech Innovators Inc.",
+    "description": "A leading technology company specializing in AI and IoT solutions.",
+    "field": "Technology",
+    "numberOfHackathonsOrganizing": 5,
+    "image": "https://example.com/images/tech_innovators_logo.jpg"
+  },
+  {
+    "companyName": "Code Masters LLC",
+    "description": "A software development firm focused on empowering developers with the best tools and resources.",
+    "field": "Software Development",
+    "numberOfHackathonsOrganizing": 8,
+    "image": "https://example.com/images/code_masters_logo.jpg"
+  },
+  {
+    "companyName": "Healthcare Solutions",
+    "description": "A healthcare technology company committed to improving patient outcomes through innovative tech.",
+    "field": "Healthcare Technology",
+    "numberOfHackathonsOrganizing": 3,
+    "image": "https://example.com/images/healthcare_solutions_logo.jpg"
+  },
+  {
+    "companyName": "Eco Innovators",
+    "description": "A company dedicated to creating sustainable solutions for environmental challenges.",
+    "field": "Environmental Technology",
+    "numberOfHackathonsOrganizing": 4,
+    "image": "https://example.com/images/eco_innovators_logo.jpg"
+  }
+]

@@ -1,0 +1,88 @@
+
+
+{
+  "challenge": {
+      "challenge_name": "⚡️ The Agentic Internet and Building AI-led Web3 Experiencesdfd",
+      "description": "Build an AI-driven agent on NEAR that takes a user-defined intent and executes it autonomously across chains using cross-chain signatures.sdfd",
+      "technologies": [
+          "frontend",
+          "web3"
+      ],
+      "sponsors": [
+          {
+              "logo": "https://auth.devspot.app/storage/v1/object/public/hackathon-images/sponsors/new_near_logo.jpg",
+              "name": "Near",
+              "website": "https://google.com",
+              "tier": "gold"
+          }
+      ],
+      "example_projects": [
+          "Must provide a working demo or prototype deployed to NEAR testnet or mainnet",
+          "Include documentation explaining How Intents are defined and passed to your agent",
+          "Include documentation explaining Core Shade Agent logic and any on-chain storage patterns",
+          "Include documentation explaining Cross-Chain Signature integration points",
+          "A short video (≤5 min) walkthrough of your agent interacting with a sample fdf"
+      ],
+      "required_tech": [
+          "NEAR Protocol – required deployment target (testnet or mainnet)",
+          "Near SDKsdkfldk"
+      ],
+      "submission_requirements": [
+          "summary",
+          "video",
+          "github"
+      ],
+      "is_round_2_only": false,
+      "label": "sdfd",
+      "prizes": [
+          {
+              "id": 33,
+              "rank": 1,
+              "title": "",
+              "prize_usd": 5000,
+              "challenge_id": 378,
+              "prize_custom": null,
+              "prize_tokens": null,
+              "company_partner_logo": "https://auth.devspot.app/storage/v1/object/public/hackathon-images/sponsors/new_near_logo.jpg"
+          },
+          {
+              "id": 34,
+              "rank": 2,
+              "title": "",
+              "prize_usd": 3000,
+              "created_at": "2025-05-21T21:11:47.673276",
+              "updated_at": "2025-06-03T18:40:50.592823",
+              "challenge_id": 378,
+              "prize_custom": null,
+              "prize_tokens": null,
+              "company_partner_logo": "https://auth.devspot.app/storage/v1/object/public/hackathon-images/sponsors/new_near_logo.jpg"
+          },
+          {
+              "id": 35,
+              "rank": 3,
+              "title": "",
+              "prize_usd": 2000,
+              "created_at": "2025-05-21T21:12:15.28534",
+              "updated_at": "2025-06-03T18:40:55.098977",
+              "challenge_id": 378,
+              "prize_custom": null,
+              "prize_tokens": null,
+              "company_partner_logo": "https://auth.devspot.app/storage/v1/object/public/hackathon-images/sponsors/new_near_logo.jpg"
+          }
+      ]
+  },
+  "judges": {
+      "judgingCriteria": [
+          "innovation",
+          "completeness",
+          "impact",
+          "relevance"
+      ],
+      "judges": [
+          "0030935a-a994-48a2-af06-59c287d66d11",
+          "06145e8b-32ae-4dc4-a397-043781fecbd8"
+      ],
+      "customJudgeEmail": "davidokunoye003@gmail.com"
+  }
+ 
+}
